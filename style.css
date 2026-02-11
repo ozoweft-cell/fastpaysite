@@ -361,4 +361,101 @@ footer {
     }
 }
 
+/* Contact Details */
+.contact-details {
+    margin-bottom: 40px;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.contact-details a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Trust Badge */
+.trust-badge {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 18px;
+    background: #eafaf1;
+    color: #28a745;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Google Map */
+.map-container {
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+/* Legal Section */
+.legal {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.legal h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.legal p {
+    max-width: 800px;
+    margin: 0 auto 15px;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.whatsapp-float:hover {
+    background: #1ebe5d;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+    .map-container iframe {
+        height: 250px;
+    }
+
+    .legal p {
+        font-size: 0.9rem;
+    }
+}
+
+
 
